@@ -1,3 +1,4 @@
 *.pcm
+*.cmi
 *.o
 test
