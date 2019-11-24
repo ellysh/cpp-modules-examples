@@ -1,6 +1,9 @@
 import math;
 
+#include <cstdio>
+
 int main()
 {
-    return square(42);
+    printf("square = %d\n", square(42));
+    return 0;
 }

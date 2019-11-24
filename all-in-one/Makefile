@@ -3,7 +3,7 @@ CC=/usr/bin/clang++-8
 all: test
 
 math.pcm: math.cppm
-	$(CC) -fmodules-ts --precompile -x c++-module math.cppm -o math.pcm
+	$(CC) -fmodules-ts --precompile math.cppm -o math.pcm
 
 math.o: math.pcm
 	$(CC) -fmodules-ts -c math.pcm -o math.o

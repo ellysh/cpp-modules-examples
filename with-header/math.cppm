@@ -1,3 +1,3 @@
-module math;
+export module math;
 
-int square(int a) { return a * a; }
+export int square(int a) { return a * a; }
