@@ -1,5 +1,3 @@
-#define PROGRAM_MACRO 1
-
 import math;
 
 int main()

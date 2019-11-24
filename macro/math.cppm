@@ -1,3 +1,4 @@
+// Includes should come before modules. Otherwise, there is a linker error
 #include <cstdio>
 
 export module math;
